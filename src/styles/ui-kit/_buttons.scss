@@ -1,0 +1,79 @@
+/* ==========================================================================
+   Ui-kit component -- btn
+   ========================================================================== */
+
+.custom-btn {
+  $root: &;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 220px;
+  padding: 12px 33px;
+  background-color: $basic-black;
+  color: $basic-white;
+  font-size: 14px;
+  font-family: $font-imb-semi;
+  line-height: 1.71;
+  letter-spacing: 1.5px;
+  border: none;
+  user-select: none;
+  text-transform: uppercase;
+  box-shadow: 8px 8px 0 0 rgba($basic-black, 0.2);
+  transition: box-shadow 0.3s;
+
+  &:hover {
+    text-decoration: none;
+    box-shadow: 4px 4px 0 0 rgba($basic-black, 0.2);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:disabled {
+    opacity: 0.8;
+  }
+
+  &--block {
+    display: flex;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  &--icon {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    padding: 0;
+    background-color: $white;
+    flex-shrink: 0;
+    box-shadow: none;
+    cursor: pointer;
+
+    &-dark {
+      background-color: $basic-black;
+      box-shadow: 8px 8px 0 0 rgba($basic-black, 0.2);
+    }
+
+    &:focus {
+      outline: none;
+    }
+
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  &--white {
+    background-color: $basic-white;
+    color: $basic-black;
+    box-shadow: 8px 8px 0 0 rgba($basic-black, 0.5);
+  }
+}

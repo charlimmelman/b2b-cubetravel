@@ -1,0 +1,23 @@
+/* ==========================================================================
+   Component -- header
+   ========================================================================== */
+
+.header {
+  $root: &;
+
+  display: flex;
+  min-height: 80px;
+  overflow: hidden;
+  padding: 15px 0;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background-color: black;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

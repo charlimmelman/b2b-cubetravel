@@ -1,0 +1,49 @@
+/* ==========================================================================
+   Component -- nav
+   ========================================================================== */
+
+.navigation {
+  $root: &;
+
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 14px;
+  font-family: $font-ibm-medium;
+  line-height: 1.71;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+
+  .navbar-nav {
+    @media (max-width: (992px)) {
+      min-height: 250px;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+  }
+
+  .nav-item {
+
+    &:not(:last-of-type) {
+      position: relative;
+      margin-right: 48px;
+    }
+  }
+
+  .nav-link {
+    color: var(--primary-white) !important;
+    padding: 0;
+
+    &:hover {
+      text-decoration: none;
+      color: $bluish-gray !important;
+    }
+
+    &.active,
+    &.active:hover {
+      color: $light-grey-blue !important;
+      text-decoration: none;
+    }
+  }
+
+}

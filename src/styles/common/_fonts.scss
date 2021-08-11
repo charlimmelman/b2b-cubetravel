@@ -1,0 +1,5 @@
+// font-face mixin
+@include font-face(BarlowBold, fonts/BarlowCondensed-Bold, 700, normal, eot woff2 woff);
+@include font-face(IBMPlexSansMedium, fonts/IBMPlexSans-Medium, 500, normal, eot woff2 woff);
+@include font-face(IBMPlexSansRegular, fonts/IBMPlexSans-Regular, normal, normal, eot woff2 woff);
+@include font-face(IBMPlexSansSemi, fonts/IBMPlexSans-SemiBold, normal, normal, eot woff2 woff);

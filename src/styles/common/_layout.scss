@@ -1,0 +1,62 @@
+/* ==========================================================================
+   Common -- layout
+   ========================================================================== */
+
+.layout {
+  $root: &;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__section {
+    display: flex;
+    flex-grow: 1;
+    min-height: auto;
+
+    &--padding {
+      padding: 100px 0;
+    }
+  }
+
+  &__main {
+    margin-top: 80px;
+    overflow: hidden;
+  }
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.padding-100 {
+  padding: 100px 0;
+}
+
+.padding-all {
+  padding: 110px 95px !important;
+
+  @media (max-width: (576px)) {
+    padding: 110px 30px !important;
+  }
+}
+
+.padding-b-100 {
+  padding-bottom: 100px;
+}
+
+.min-height-360 {
+  min-height: 360px;
+}
+
+.bg-basic-black {
+  background-color: $basic-black;
+}
+
+.bg-basic-white {
+  background-color: $basic-white;
+}
+
+.bg-light-blue {
+  background-color: $light-blue;
+}

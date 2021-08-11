@@ -1,0 +1,22 @@
+@import "dependencies";
+//shared layout components
+@import "../components/shared/layout/header/header";
+@import "../components/shared/layout/footer/footer";
+//shared common components
+@import "../components/shared/common/logo/logo";
+@import "../components/shared/common/nav/nav";
+@import "../components/shared/common/simple-card/index";
+@import "../components/shared/common/offer-card/index";
+@import "../components/shared/common/icon-card/index";
+@import "../components/shared/common/socials/socials";
+@import "../components/shared/common/filter-form/index";
+@import "../components/shared/common/quote-form/index";
+@import "../components/shared/common/main-card/index";
+//features components
+@import "../components/features/hero-section/index";
+@import "../components/features/info-section/index";
+@import "../components/features/cardholder-section/index";
+@import "../components/features/complex-footer/index";
+@import "../components/features/map-section/index";
+@import "../components/features/subscribe-socials-section/index";
+@import "../components/features/details-section/index";

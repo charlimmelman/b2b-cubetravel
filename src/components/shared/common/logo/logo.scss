@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Component -- logo
+   ========================================================================== */
+
+.logo {
+  $root: &;
+
+  display: inline-block;
+  width: px-to-rem(160px);
+  height: px-to-rem(40px);
+  text-decoration: none;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Component - filter-form
+   ========================================================================== */
+
+.filter-form {
+  $root: &;
+
+  &__content {
+    display: flex;
+    align-items: center;
+
+    > * {
+      margin-right: 15px;
+    }
+
+    @media (max-width: (768px)) {
+      flex-direction: column;
+
+      > * {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  &__input {
+    max-width: 125px;
+  }
+
+  &__select {
+    min-width: 225px;
+  }
+
+}

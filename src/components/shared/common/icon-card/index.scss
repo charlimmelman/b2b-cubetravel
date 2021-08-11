@@ -1,0 +1,31 @@
+/* ==========================================================================
+   Component - icon-card
+   ========================================================================== */
+
+.icon-card {
+  $root: &;
+  display: flex;
+  align-items: center;
+
+  &__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    &--small {
+      width: 16px;
+      height: 16px;
+    }
+
+    &--lg {
+      width: 50px;
+      height: 50px;
+    }
+  }
+
+}

@@ -1,0 +1,48 @@
+/* ==========================================================================
+   Component -- footer
+   ========================================================================== */
+
+.footer {
+  $root: &;
+
+  &__block {
+
+    @media (max-width: (992px)) {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    &--col {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+    cursor: pointer;
+    color: $basic-black;
+    transition: color 0.3s;
+
+    .main__desc {
+      color: $basic-black;
+      transition: color 0.3s;
+    }
+
+    &:hover {
+      text-decoration: none;
+      color: $bluish-gray;
+
+      .main__desc {
+        color: $bluish-gray;
+      }
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 24px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 24px;
+  }
+}

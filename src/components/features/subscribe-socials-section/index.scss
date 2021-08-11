@@ -1,0 +1,45 @@
+.subscribe {
+  $root: &;
+  overflow: hidden;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../../../assets/img/sea_lg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform ease-in-out 0.5s;
+  }
+
+  &:hover:before {
+     transform: scale(1.05);
+   }
+
+  &__form,
+  &__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px !important;
+  }
+
+  &__form {
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    background-color: rgba(20, 29, 32, 0.5);
+    display: flex;
+    align-items: center;
+  }
+
+  &__social {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-left: 0 !important;
+  }
+}

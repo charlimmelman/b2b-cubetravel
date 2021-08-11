@@ -1,0 +1,41 @@
+// =============================================================================
+// Constants
+// =============================================================================
+
+// Colors
+$white:           #fff;
+$basic-black:     #141d20;
+$basic-white:     #f2f4f8;
+$light-grey-blue: #abc6cb;
+$bluish-gray:     #75969d;
+$light-blue:     #f4fafc;
+$athens-gray:     #ebedf3;
+
+:root {
+  --primary-black: #141d20;
+  --primary-dark: #3f5458;
+  --primary-medium: #75969d;
+  --primary-light: #f4fafc;
+  --primary-white: #ffffff;
+  --primary-accent: #ff6060;
+  --secondary-accent: #ffcece;
+}
+
+// Fonts
+$secure-fonts: Arial, Helvetica, "Nimbus Sans", Sans-serif;
+$font-barlow: BarlowBold, $secure-fonts;
+$font-ibm-medium: IBMPlexSansMedium, $secure-fonts;
+$font-imb-regular: IBMPlexSansRegular, $secure-fonts;
+$font-imb-semi: IBMPlexSansSemi, $secure-fonts;
+
+$default-font-size: 16px;
+
+// =============================================================================
+// Variables
+// =============================================================================
+
+// body
+$body-bg: $white;
+$body-color: $basic-black;
+$body-font-family: $font-imb-semi;
+$body-font-size: $default-font-size;
