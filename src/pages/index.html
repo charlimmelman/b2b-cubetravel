@@ -9,15 +9,22 @@
     @include('components/shared/layout/header/header.html')
   </header>
   <main class="overflow-hidden layout__main">
-    <div class="container-xl">
-      @include('components/features/hero-section/index.html')
+    @include('components/features/hero-section/index.html')
+    <div id="hero-section"></div>
+    @include('components/features/form-section/index.html')
+    <div class="layout__section layout__section--padding-top-128">
+      @include('components/features/partnership-section/index.html')
     </div>
-    @include('components/features/cardholder-section/index.html')
-    @include('components/features/iframe-section/index.html')
-    @include('components/features/subscribe-socials-section/index.html')
-    @include('components/features/offers-section/index.html')
-    @include('components/features/complex-footer/index.html')
+    @include('components/features/team-section/index.html')
+    @include('components/features/services-section/index.html')
+    @include('components/features/reviews-section/index.html')
+    @include('components/features/technology-section/index.html')
+    @include('components/features/reporting-section/index.html')
+    @include('components/features/сorporate-traveller-section/index.html')
   </main>
+  <footer class="layout__section--padding-all-88 container-fluid">
+    @include('components/shared/layout/footer/footer.html')
+  </footer>
 
   @include('pages/include/scripts.html')
   <script src="./js/vendors.js"></script>

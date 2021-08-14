@@ -1,0 +1,61 @@
+/* ==========================================================================
+   Component - address-block
+   ========================================================================== */
+
+.address-block {
+  $root: &;
+
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+
+  &__img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid var(--primary-medium);
+    border-radius: 100%;
+    margin-right: 16px;
+    fill: var(--primary-white);
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    font-family: $font-montserrat-bold;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.16px;
+
+    &-link {
+      margin-bottom: 8px;
+      color: var(--primary-white);
+
+      &:hover {
+        text-decoration: none;
+        color: var(--primary-accent);
+      }
+    }
+  }
+
+  &__desc {
+    max-width: 82px;
+    width: 100%;
+    font-family: $font-imb-regular;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.16px;
+    color: var(--primary-medium)
+  }
+
+  &--primary & {
+
+    &__img {
+      fill: var(--primary-black)
+    }
+
+    &__info-link {
+      color: var(--primary-black);
+    }
+  }
+
+}

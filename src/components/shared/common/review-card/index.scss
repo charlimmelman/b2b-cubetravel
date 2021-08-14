@@ -1,0 +1,58 @@
+/* ==========================================================================
+   Component - review-card
+   ========================================================================== */
+
+.review-card {
+  $root: &;
+  cursor: pointer;
+
+  &:hover & {
+
+    &__frame {
+      background-color: var(--primary-white);
+      border: solid 1px var(--primary-white);
+
+      &:after {
+        border-color: var(--primary-white) transparent transparent transparent;
+      }
+
+      &:before {
+        border-color: var(--primary-white) transparent transparent transparent;
+      }
+    }
+  }
+
+  &__frame {
+    width: 350px;
+    padding: 24px 24px 32px;
+    border-radius: 4px;
+    position: relative;
+    border: solid 1px var(--primary-medium);
+    margin-bottom: 24px;
+
+    &:after,
+    &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 20px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+    }
+
+    &:after {
+      left: 15px;
+      border-color: var(--primary-light) transparent transparent transparent;
+      border-width: 10px;
+    }
+
+    &:before {
+      left: 14px;
+      border-color: var(--primary-medium) transparent transparent transparent;
+      border-width: 11px;
+    }
+  }
+
+}

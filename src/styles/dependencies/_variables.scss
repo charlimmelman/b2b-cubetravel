@@ -22,8 +22,8 @@ $athens-gray:     #ebedf3;
 }
 
 // Fonts
-$secure-fonts: Arial, Helvetica, "Nimbus Sans", Sans-serif;
-$font-barlow: BarlowBold, $secure-fonts;
+$secure-fonts: Arial, Helvetica, Sans-serif;
+$font-montserrat-bold: MontserratBold, $secure-fonts;
 $font-ibm-medium: IBMPlexSansMedium, $secure-fonts;
 $font-imb-regular: IBMPlexSansRegular, $secure-fonts;
 $font-imb-semi: IBMPlexSansSemi, $secure-fonts;
@@ -35,7 +35,24 @@ $default-font-size: 16px;
 // =============================================================================
 
 // body
-$body-bg: $white;
-$body-color: $basic-black;
+$body-bg: var(--primary-white);
+$body-color: var(--primary-black);
 $body-font-family: $font-imb-semi;
 $body-font-size: $default-font-size;
+
+
+.bg-primary-light {
+  background-color: var(--primary-light);
+}
+
+.bg-primary-dark {
+  background-color: var(--primary-dark);
+}
+
+.font-primary-white {
+  color: var(--primary-white);
+}
+
+.font-primary-medium {
+  color: var(--primary-medium);
+}

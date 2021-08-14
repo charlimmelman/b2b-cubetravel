@@ -14,49 +14,40 @@
     flex-grow: 1;
     min-height: auto;
 
-    &--padding {
-      padding: 100px 0;
+    &-title {
+      margin-bottom: 48px;
+    }
+
+    &--padding-all-88 {
+      padding: 88px 0;
+    }
+
+    &--padding-all-128 {
+      padding: 128px 0;
+    }
+
+    &--padding-all-168 {
+      padding: 168px 0;
+    }
+
+    &--padding-top-128 {
+      padding-top: 128px;
+    }
+
+    &--padding-bottom-128 {
+      padding-bottom: 128px;
+    }
+
+    &--padding-top-88 {
+      padding-top: 88px;
     }
   }
 
   &__main {
-    margin-top: 80px;
     overflow: hidden;
+
+    &--mt {
+      margin-top: 80px;
+    }
   }
-}
-
-.margin-top-100 {
-  margin-top: 100px;
-}
-
-.padding-100 {
-  padding: 100px 0;
-}
-
-.padding-all {
-  padding: 110px 95px !important;
-
-  @media (max-width: (576px)) {
-    padding: 110px 30px !important;
-  }
-}
-
-.padding-b-100 {
-  padding-bottom: 100px;
-}
-
-.min-height-360 {
-  min-height: 360px;
-}
-
-.bg-basic-black {
-  background-color: $basic-black;
-}
-
-.bg-basic-white {
-  background-color: $basic-white;
-}
-
-.bg-light-blue {
-  background-color: $light-blue;
 }

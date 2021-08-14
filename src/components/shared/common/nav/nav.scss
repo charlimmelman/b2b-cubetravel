@@ -7,12 +7,15 @@
 
   display: flex;
   justify-content: space-between;
+  align-items: start !important;
   width: 100%;
   font-size: 14px;
   font-family: $font-ibm-medium;
   line-height: 1.71;
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
 
   .navbar-nav {
     @media (max-width: (992px)) {
@@ -36,12 +39,12 @@
 
     &:hover {
       text-decoration: none;
-      color: $bluish-gray !important;
+      color: var(--primary-accent) !important;
     }
 
     &.active,
     &.active:hover {
-      color: $light-grey-blue !important;
+      color: var(--primary-accent) !important;
       text-decoration: none;
     }
   }

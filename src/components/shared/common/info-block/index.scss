@@ -1,0 +1,51 @@
+/* ==========================================================================
+   Component - info
+   ========================================================================== */
+
+.info-block {
+  $root: &;
+
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+
+  &:hover & {
+
+    &__img {
+      fill: var(--primary-accent)
+    }
+
+    &__title {
+      color: var(--primary-accent)
+    }
+  }
+
+  &--mb {
+    margin-bottom: 48px;
+  }
+
+  &__img {
+    width: 48px;
+    height: 48px;
+    border: 1px solid var(--primary-medium);
+    border-radius: 100%;
+    margin-right: 16px;
+    fill: var(--primary-black);
+    transition: fill 0.3s;
+
+    &--light {
+      fill: var(--primary-white);
+    }
+  }
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  &__title {
+    transition: color 0.3s;
+  }
+
+}

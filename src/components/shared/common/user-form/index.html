@@ -1,15 +1,15 @@
-<form class="d-flex flex-column">
-  <div class="row justify-content-center">
-    <div class="d-flex flex-column col-lg-4 col-10">
-      <input class="custom-input custom-input--border mb-3" type="text" name="name" placeholder="Name" />
-      <input class="custom-input custom-input--border mb-3" type="text" name="last_name" placeholder="Last Name" />
-      <input class="custom-input custom-input--border mb-3" type="email" name="email" placeholder="Your E-mail" />
-      <input class="custom-input custom-input--border" type="tel" name="number" placeholder="Contact number" />
+<form class="d-flex flex-column justify-content-center">
+    <div class="d-flex row">
+      <div class="col-6">
+        <input class="custom-input custom-input--border mb-3 w-100" type="text" name="name" placeholder="Name" />
+        <input class="custom-input custom-input--border mb-3 w-100" type="text" name="last_name" placeholder="Last Name" />
+      </div>
+      <div class="col-6">
+        <input class="custom-input custom-input--border mb-3 w-100" name="company" placeholder="Company" />
+        <input class="custom-input custom-input--border mb-3 w-100" name="emailOrPhone" placeholder="E-mail or phone" />
+      </div>
     </div>
-    <div class="col-lg-4 col-10 mt-4 mt-lg-0">
       <textarea name="message" class="custom-input custom-input--border custom-input__textarea w-100"
                 placeholder="Your message"></textarea>
-    </div>
-  </div>
-  <button class="custom-btn align-self-center mt-5">send message</button>
+  <button class="custom-btn align-self-center mt-5">contact us</button>
 </form>

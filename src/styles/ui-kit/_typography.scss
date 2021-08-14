@@ -1,88 +1,43 @@
-.main {
+.typography {
 
-  &__title {
-    font-family: $font-barlow;
+  &__h1 {
+    font-family: $font-montserrat-bold;
     font-size: 72px;
-    font-stretch: condensed;
-    line-height: 0.83;
-    letter-spacing: -0.25px;
-    color: $basic-black;
-
-    &--mb {
-      margin-bottom: 50px;
-    }
+    line-height: 1.11;
+    letter-spacing: -2px;
   };
 
-  &__heading {
-    font-family: $font-barlow;
-    font-size: 48px;
-    font-stretch: condensed;
-    line-height: 1.17;
+  &__h2 {
+    font-family: $font-montserrat-bold;
+    font-size: 40px;
+    line-height: 1.2;
+  };
 
-    &--mb {
-      margin-bottom: 50px;
-    }
-
-    &--white {
-      color: $basic-white;
-    }
-  }
-
-  &__subtitle {
-    font-family: $font-barlow;
-    font-size: 24px;
-    font-stretch: condensed;
-    line-height: 1.17;
-    letter-spacing: 1px;
-    color: $basic-black;
-    margin-bottom: 0;
-
-    &--white {
-      color: $basic-white;
-    }
-  }
-
-  &__desc {
-    font-family: $font-ibm-medium;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.71;
-    letter-spacing: 1.75px;
-    color: $basic-black;
-    text-transform: uppercase;
-
-    &--white {
-      color: $basic-white;
-    }
-
-    &--primary {
-      color: $light-grey-blue;
-    }
-
-  }
+  &__h3 {
+    font-family: $font-montserrat-bold;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.2px;
+  };
 
   &__text {
     font-family: $font-imb-regular;
     font-size: 18px;
     line-height: 1.33;
     letter-spacing: 0.2px;
-    color: $basic-black;
-    margin-bottom: 0;
-
-    &--white {
-      color: $basic-white;
-    }
   }
 
   &__info {
-    font-family: $font-imb-semi;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.2px;
-    color: $basic-black;
+    font-family: $font-ibm-medium;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.71;
+    color: var(--primary-black);
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+  }
 
-    &--white {
-      color: $basic-white;
-    }
+  &--pre-line {
+    white-space: pre-line;
   }
 }

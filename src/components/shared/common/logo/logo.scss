@@ -9,9 +9,16 @@
   width: px-to-rem(160px);
   height: px-to-rem(40px);
   text-decoration: none;
+  flex-shrink: 0;
 
   img {
     width: 100%;
     height: 100%;
   }
+
+  &--small {
+    width: px-to-rem(120px);
+    height: px-to-rem(30px);
+  }
+
 }

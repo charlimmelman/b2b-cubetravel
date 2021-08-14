@@ -8,10 +8,7 @@
   display: flex;
   min-height: 80px;
   overflow: hidden;
-  padding: 15px 0;
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
-  background-color: black;
+  padding: 28px 0 14px;
 
   &__content {
     display: flex;
@@ -19,5 +16,28 @@
     justify-content: space-between;
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+
+  &__logo--dark {
+    display: none;
+  }
+
+  &--primary {
+    background-color: var(--primary-white);
+    border-bottom: 1px solid #dfe8eb;
+
+    .header__logo--dark {
+      display: inline-block;
+    }
+
+    .header__logo--light {
+      display: none;
+    }
+
+    .navigation {
+      .nav-link {
+        color: var(--primary-black) !important;
+      }
+    }
   }
 }

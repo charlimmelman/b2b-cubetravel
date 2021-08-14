@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ru">
+  @include('pages/include/head.html')
+
+<body class="layout">
+  @include('pages/include/svg-inline.html')
+
+  <header class="fixed-top">
+    @include('components/shared/layout/header/header-white.html')
+  </header>
+  <main class="overflow-hidden layout__main layout__main--mt">
+    @include('components/features/top-section/index.html')
+  </main>
+  <footer class="layout__section--padding-all-88 container-fluid">
+    @include('components/shared/layout/footer/footer.html')
+  </footer>
+
+  @include('pages/include/scripts.html')
+</body>
+</html>

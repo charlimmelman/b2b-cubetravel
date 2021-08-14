@@ -1,0 +1,42 @@
+/* ==========================================================================
+   Component - service-card
+   ========================================================================== */
+
+.service-card {
+  $root: &;
+
+  width: 280px;
+  padding: 24px 16px 24px 24px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  transition: background-color .5ms;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 4px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 4px;
+    background-color: var(--primary-medium);
+    transition: opacity .5ms;
+  }
+
+  &:hover {
+    background-color: var(--primary-light);
+
+    &:before {
+      opacity: 0;
+    }
+  }
+
+  &__text {
+    margin: 40px 0 16px 0;
+  }
+
+}
