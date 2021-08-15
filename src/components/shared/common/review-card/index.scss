@@ -23,12 +23,14 @@
   }
 
   &__frame {
-    width: 350px;
+    max-width: 350px;
+    width: 100%;
     padding: 24px 24px 32px;
     border-radius: 4px;
     position: relative;
     border: solid 1px var(--primary-medium);
     margin-bottom: 24px;
+    transition: 0.5s;
 
     &:after,
     &:before {
@@ -40,6 +42,7 @@
       width: 0;
       height: 0;
       border-style: solid;
+      transition: border-color 0.5s;
     }
 
     &:after {

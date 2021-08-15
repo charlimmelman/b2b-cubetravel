@@ -8,12 +8,10 @@
   <header class="fixed-top">
     @include('components/shared/layout/header/header-white.html')
   </header>
-  <main class="overflow-hidden layout__main layout__main--mt">
+  <main class="overflow-hidden layout__main layout__main--mt layout__main--mb">
     @include('components/features/top-section/index.html')
   </main>
-  <footer class="layout__section--padding-all-88 container-fluid">
-    @include('components/shared/layout/footer/footer.html')
-  </footer>
+  @include('components/shared/layout/footer/footer.html')
 
   @include('pages/include/scripts.html')
 </body>

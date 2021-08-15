@@ -24,12 +24,12 @@
     }
   }
 
-  &__input {
-    max-width: 125px;
+  &__select {
+    min-width: 200px;
   }
 
-  &__select {
-    min-width: 225px;
+  &__select-lg {
+    min-width: 256px;
   }
 
 }

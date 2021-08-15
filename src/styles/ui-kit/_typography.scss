@@ -5,6 +5,10 @@
     font-size: 72px;
     line-height: 1.11;
     letter-spacing: -2px;
+
+    @media (max-width: (768px)) {
+      font-size: 48px;
+    }
   };
 
   &__h2 {

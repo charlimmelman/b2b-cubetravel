@@ -3,13 +3,6 @@
 // =============================================================================
 
 // Colors
-$white:           #fff;
-$basic-black:     #141d20;
-$basic-white:     #f2f4f8;
-$light-grey-blue: #abc6cb;
-$bluish-gray:     #75969d;
-$light-blue:     #f4fafc;
-$athens-gray:     #ebedf3;
 
 :root {
   --primary-black: #141d20;
@@ -39,20 +32,3 @@ $body-bg: var(--primary-white);
 $body-color: var(--primary-black);
 $body-font-family: $font-imb-semi;
 $body-font-size: $default-font-size;
-
-
-.bg-primary-light {
-  background-color: var(--primary-light);
-}
-
-.bg-primary-dark {
-  background-color: var(--primary-dark);
-}
-
-.font-primary-white {
-  color: var(--primary-white);
-}
-
-.font-primary-medium {
-  color: var(--primary-medium);
-}

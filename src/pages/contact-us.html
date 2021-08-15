@@ -15,33 +15,37 @@
         <div class="mt-5">
           <h3 class="typography__h3 mb-4">Normal Contacts</h3>
           <p class="typography__text typography--pre-line">Shot description text to explain what is normal contacts</p>
-          <div class="d-flex mt-5">
-            @include('components/shared/common/address-block/primary.html')
-            @include('components/shared/common/address-block/primary.html')
-            @include('components/shared/common/address-block/primary.html')
+          <div class="row mt-5">
+            <div class="col-lg-3 mb-3 mb-lg-0">
+              @include('components/shared/common/address-block/primary.html')
+            </div>
+            <div class="col-lg-3 mb-3 mb-lg-0">
+              @include('components/shared/common/address-block/primary.html')
+            </div>
+            <div class="col-lg-3 mb-3 mb-lg-0">
+              @include('components/shared/common/address-block/primary.html')
+            </div>
           </div>
         </div>
         <div class="mt-5">
-          <h3 class="typography__h3 mb-4">Subtitle One</h3>
+          <h3 class="typography__h3 mb-4">Urgent Issues</h3>
           <p class="typography__text typography--pre-line">Shot description text to explain what is normal contacts</p>
-          <div class="d-flex mt-5">
-            @include('components/shared/common/address-block/primary.html')
-            @include('components/shared/common/address-block/primary.html')
-            @include('components/shared/common/address-block/primary.html')
+          <div class="row mt-5">
+            <div class="col-lg-3 mb-3 mb-lg-0">
+              @include('components/shared/common/address-block/primary.html')
+            </div>
+            <div class="col-lg-3 mb-3 mb-lg-0">
+              @include('components/shared/common/address-block/primary.html')
+            </div>
+            <div class="col-lg-3 mb-3 mb-lg-0">
+              @include('components/shared/common/address-block/primary.html')
+            </div>
           </div>
         </div>
       </div>
     </div>
     @include('components/features/form-section/index.html')
   </main>
-  <footer class="layout__section--padding-all-88 container-fluid">
-    @include('components/shared/layout/footer/footer.html')
-  </footer>
-
-  @include('pages/include/scripts.html')
-  <script src="./js/vendors.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-  <script src="./js/common.js"></script>
+  @include('components/shared/layout/footer/footer.html')
 </body>
 </html>

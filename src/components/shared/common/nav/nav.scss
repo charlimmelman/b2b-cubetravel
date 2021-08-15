@@ -36,6 +36,7 @@
   .nav-link {
     color: var(--primary-white) !important;
     padding: 0;
+    transition: color 0.3s;
 
     &:hover {
       text-decoration: none;

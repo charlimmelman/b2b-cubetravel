@@ -21,3 +21,19 @@ body {
   font-family: $body-font-family;
   background-color: $body-bg;
 }
+
+.bg-primary-light {
+  background-color: var(--primary-light);
+}
+
+.bg-primary-dark {
+  background-color: var(--primary-dark);
+}
+
+.font-primary-white {
+  color: var(--primary-white);
+}
+
+.font-primary-medium {
+  color: var(--primary-medium);
+}

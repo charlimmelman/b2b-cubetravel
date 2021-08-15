@@ -8,25 +8,19 @@
   <header class="fixed-top">
     @include('components/shared/layout/header/header-white.html')
   </header>
-  <main class="overflow-hidden layout__main layout__main--mt">
+  <main class="overflow-hidden layout__main layout__main--mt layout__main--mb">
     <div class="layout__section layout__section--padding-top-88">
       <div class="container-xl" >
         <h1 class="typography__h1">Technology</h1>
       </div>
     </div>
     <div class="layout__section layout__section--padding-all-128">
-      @include('components/features/text-covid-section/index.html')
+      @include('components/features/text-section/index.html')
     </div>
-    @include('components/features/focus-section/index.html')
+    @include('components/features/list-section/index.html')
   </main>
-  <footer class="layout__section--padding-all-88 container-fluid">
-    @include('components/shared/layout/footer/footer.html')
-  </footer>
+  @include('components/shared/layout/footer/footer.html')
 
   @include('pages/include/scripts.html')
-  <script src="./js/vendors.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-  <script src="./js/common.js"></script>
 </body>
 </html>

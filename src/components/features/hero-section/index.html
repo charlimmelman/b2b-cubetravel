@@ -1,12 +1,19 @@
-<div class="hero"">
+<div class="hero">
     <img src="./assets/img/hero.jpg"  class="hero__img" />
     <div class="container-xl hero__content">
-        <h1 class="typography__h1 hero__title">Travel management
+        <h1 class="typography__h1 typography--pre-line font-primary-white">Travel
+            management
             that delivers</h1>
-        <div class="hero__address">
-            @include('components/shared/common/address-block/index.html')
-            @include('components/shared/common/address-block/index.html')
-            @include('components/shared/common/address-block/index.html')
+        <div class="row">
+            <div class="col-lg-3 mb-3 mb-lg-0">
+                @include('components/shared/common/address-block/index.html')
+            </div>
+            <div class="col-lg-3 mb-3 mb-lg-0">
+                @include('components/shared/common/address-block/index.html')
+            </div>
+            <div class="col-lg-3 mb-3 mb-lg-0">
+                @include('components/shared/common/address-block/index.html')
+            </div>
         </div>
     </div>
 </div>

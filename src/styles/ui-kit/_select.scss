@@ -12,7 +12,15 @@
   -moz-appearance: none;
   appearance: none;
   text-transform: uppercase;
-  background-color: transparent;
+  display: inline-block;
+  height: 50px;
+  padding: 12px 30px;
+  outline: none;
+  font-family: $font-ibm-medium;
+  border: 1px solid transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 1.5px;
 
   option {
     text-transform: none;

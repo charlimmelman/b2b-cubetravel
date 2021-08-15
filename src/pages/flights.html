@@ -8,23 +8,18 @@
   <header class="fixed-top">
     @include('components/shared/layout/header/header-white.html')
   </header>
-  <main class="overflow-hidden layout__main layout__main--mt">
-    <div class="layout__section layout__section--padding-top-88">
+  <main class="overflow-hidden layout__main layout__main--mt layout__main--mb">
+    <div class="layout__section layout__section--padding-top-88 mb-5">
       <div class="container-xl" >
         <h1 class="typography__h1 mb-5">Flights</h1>
         <h3 class="typography__h3 mb-3">Subtitle One</h3>
         <p class="typography__text typography--pre-line">From booking tools to travel management to back-office support, we have a bouquet of world-class standards-compliant travel technology tools that streamline and optimise your travel programme. We are constantly researching and investing in new travel technology to give your business access to cutting-edge tools in booking and managing your travel, and ensuring your travellers’ safety and well being.</p>
       </div>
     </div>
+    <div class="layout__section layout__section--padding-all-88 bg-primary-light h-25"></div>
   </main>
-  <footer class="layout__section--padding-all-88 container-fluid">
-    @include('components/shared/layout/footer/footer.html')
-  </footer>
+  @include('components/shared/layout/footer/footer.html')
 
   @include('pages/include/scripts.html')
-  <script src="./js/vendors.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
-  <script src="./js/common.js"></script>
 </body>
 </html>

@@ -29,6 +29,7 @@
     &-link {
       margin-bottom: 8px;
       color: var(--primary-white);
+      transition: color 0.3s;
 
       &:hover {
         text-decoration: none;
