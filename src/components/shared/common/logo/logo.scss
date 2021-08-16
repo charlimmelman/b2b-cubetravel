@@ -6,8 +6,8 @@
   $root: &;
 
   display: inline-block;
-  width: px-to-rem(160px);
-  height: px-to-rem(40px);
+  width: 160px;
+  height: 40px;
   text-decoration: none;
   flex-shrink: 0;
 
@@ -17,8 +17,8 @@
   }
 
   &--small {
-    width: px-to-rem(120px);
-    height: px-to-rem(30px);
+    width: 120px;
+    height: 30px;
   }
 
 }
